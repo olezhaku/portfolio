@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Info</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+<body>
+    <div class="conteiner">
+        <header>
+            <h1>Проверка вашего браузера</h1>
+        </header>
+    
+        <div class="one-section">
+            <div class="card card-ip">
+                <div class="card-header">
+                    <h1>IP-адрес</h1>
+                </div>
+
+                <div class="card-body">
+                    <h2>Ваш IP:</h2>
+                    <p id="ip"></p>
+                </div>
+            </div>
+
+            <div class="card card-time">
+                <div class="card-header">
+                    <h1>Дата и Время</h1>
+                </div>
+
+                <div class="card-body">
+                    <h2>Ваше время:</h2>
+                    <p id="time"></p>
+        
+                    <h2>Ваша дата:</h2>
+                    <p id="date"></p>
+        
+                    <h2>Ваш часовой пояс:</h2>
+                    <p id="timezone"></p>
+                </div>
+            </div>
+
+            <div class="card card-lang">
+                <div class="card-header">
+                    <h1>Языки</h1>
+                </div>
+
+                <div class="card-body">
+                    <h2>Язык браузера:</h2>
+                    <p id="language"></p>
+        
+                    <h2>Языки в системе:</h2>
+                    <p id="languages"></p>
+                </div>
+            </div>
+
+            <div class="card card-display">
+                <div class="card-header">
+                    <h1>Экран</h1>
+                </div>
+
+                <div class="card-body">
+                    <h2>Размер экрана:</h2>
+                    <p id="screen-size"></p>
+        
+                    <h2>Размер окна:</h2>
+                    <p id="window-size"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="two-section">
+            <div class="card card-geo">
+                <div class="card-header">
+                    <h1>Геопозиция</h1>
+                </div>
+
+                <div class="card-body">
+                    <h2>Координаты:</h2>
+                    <p id="geoposition"></p>
+    
+                    <h2>Точность:</h2>
+                    <p id="accuracy"></p>
+                </div>
+            </div>
+
+            <div class="card card-os">
+                <div class="card-header">
+                    <h1>OC</h1>
+                </div>
+
+                <div class="card-body">
+                    <h2>Платформа:</h2>
+                    <p id="platform"></p>
+        
+                    <h2>OC:</h2>
+                    <p id="oscpu"></p>
+                </div>
+            </div>
+
+            <div class="card card-history">
+                <div class="card-header">
+                    <h1>История</h1>
+                </div>
+    
+                <div class="card-body">
+                    <h2>Прошлая страница:</h2>
+                    <p id="referer"></p>
+    
+                    <h2>Кол-во посещенных страниц:</h2>
+                    <p id="previoussites"></p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="card card-fingerprint">
+            <div class="card-header">
+                <h1>Отпечатки</h1>
+            </div>
+
+            <div class="card-body">
+                <h2>BuildID:</h2>
+                <p id="buildid"></p>
+
+                <h2>UserAgent:</h2>
+                <p id="useragent"></p>
+    
+                <h2>Canvas:</h2>
+                <p id="canvas"></p>
+
+                <h2>WebGL:</h2>
+                <p id="webgl"></p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-copyright">
+            <div class="footer-copyright-name">
+                © Олег Кукушкин
+            </div>
+            <p>
+                Front-end разработка
+            </p>
+        </div>
+
+        <div class="footer-button">
+            <a href="../index.html"><button class="footer-btn"><---Назад</button></a>
+        </div>
+    </footer>
+</body>
+<script src="./js/userinfo.js"></script>
+<script src="./js/sha256.js"></script>
+<script src="./js/script.js"></script>
+</html>

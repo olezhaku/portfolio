@@ -1,0 +1,727 @@
+@media (max-width: 1330px) {
+    .best-card img{
+        width: 300px;
+    }
+
+    .product-head {
+        font-size: 40px;
+    }
+
+    .product-section-two img {
+        width: 550px
+    }
+}
+
+@media (max-width: 1270px) {
+    .preview-img img {
+        width: 90%;
+    }
+
+    .about-text h2 {
+        font-size: 42px;
+    }
+
+    .advantages img {
+        width: 400px;
+    }
+        
+    .form-img img {
+        width: 450px;
+    }
+
+    .product-section-two img {
+        width: 450px;
+    }
+}
+
+@media (max-width: 1172px) {
+    .description-card {
+        font-size: 21.5px;
+    }
+
+    .preview-body h1 {
+        font-size: 40px;
+    }
+
+    .best-head h2 {
+        font-size: 40px;
+    }
+
+    .lead h2 {
+        font-size: 40px;
+    }
+
+    .tab-button p {
+        font-size: 30px;
+    }
+
+    .about-text h2 {
+        font-size: 30px;
+    }
+
+    .about-text p {
+        font-size: 18px;
+    }
+
+    .form-header h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1162px) {
+    .description-card {
+        font-size: 21px;
+    }
+}
+
+@media (max-width: 1157px) {
+    .description-card {
+        font-size: 20.5px;
+    }
+}
+
+@media (max-width: 1151px) {
+    .description-card {
+        font-size: 20px;
+    }
+
+    .best-card img {
+        width: 250px;
+    }
+
+    .form-img img {
+        width: 400px;
+    }
+}
+
+@media (max-width: 1146px) {
+    .description-card {
+        font-size: 19.5px;
+    }
+}
+
+@media (max-width: 1141px) {
+    .description-card {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 1137px) {
+    .description-card {
+        font-size: 18.5px;
+    }
+}
+
+@media (max-width: 1131px) {
+    .description-card {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1127px) {
+    .description-card {
+        font-size: 17.5px;
+    }
+}
+
+@media (max-width: 1121px) {
+    .description-card {
+        font-size: 17px;
+    }
+
+    .product-section-two img {
+        width: 350px;
+    }
+}
+
+@media (max-width: 1117px) {
+    .description-card {
+        font-size: 16.5px;
+    }
+}
+
+@media (max-width: 1111px) {
+    .description-card {
+        font-size: 16px;
+    }
+
+    .product-section-two img {
+        width: 250px;
+    }
+}
+
+@media (max-width: 1107px) {
+    .product {
+        align-items: center;
+    }
+
+    .description-card {
+        font-size: 15.5px;
+    }
+
+    .product-tab {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .description-card {
+        font-size: 22px;
+    }
+
+    .tab-description {
+        width: 500px;
+    }
+}
+
+@media (max-width: 1101px) {
+    .form-img img {
+        width: 350px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .tab-description {
+        font-size: 18px;
+    }
+
+    .advantages img {
+        width: 250px;
+    }
+
+    .form-img img {
+        width: 250px;
+    }
+
+    .preview-body h1 {
+        font-size: 30px;
+        line-height: normal;
+    }
+
+    .preview-body p {
+        font-size: 18px;
+    }
+
+    .about-body {
+        flex-direction: column;
+    }
+
+    .about-photo {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about-text {
+        margin-top: 0;
+    }
+
+    .preview {
+        padding-bottom: 50px;
+    }
+
+    .product {
+        flex-direction: column;
+    }
+
+    .product-section-two img {
+        margin-top: 30px;
+        width: 450px;
+    }
+
+    .form-background {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form-img img {
+        width: 500px;
+        margin-top: 40px;
+    }
+
+    .best-card img {
+        width: 200px;
+    }
+
+    .preview {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .preview-body {
+        text-align: center;
+    }
+
+    .preview-img img {
+        width: 350px;
+    }
+
+    .preview-img {
+        position: inherit;
+        margin-bottom: 0;
+    }
+
+    .nav li {
+        margin-left: 30px;
+    }
+
+    .form-body {
+        align-items: center;
+    }
+
+    .form-test {
+        margin: auto;
+    }
+}
+
+@media (max-width: 900px) {
+    .lead-text {
+        font-size: 18px;
+    }
+
+    .lead h2 {
+        font-size: 30px;
+    }
+
+    .best-head h2 {
+        font-size: 30px;
+    }
+
+    .best-head a {
+        top: 5px;
+    }
+
+    .advantages {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .advantages img {
+        width: 450px;
+        margin-bottom: 50px;
+    }
+
+    .form-header h1 {
+        font-size: 30px;
+    }
+
+    .form-header p {
+        font-size: 18px;
+    }
+
+    .form-input p {
+        font-size: 14px;
+    }
+
+    .form-test p {
+        font-size: 14px;
+    }
+
+    .nav li {
+        margin-left: 20px;
+    }
+
+    .best-card img {
+        width: 170px;
+    }
+
+    .description-card {
+        font-size: 14px;
+    }
+
+    .product-head {
+        font-size: 30px;
+    }
+    
+    .product-body p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 760px) {
+    .open {
+        display: flex !important;
+    }
+
+    .none {
+        overflow: hidden;
+    }
+
+    .burger {
+        margin-top: -63px;
+        margin-left: auto;
+        margin-right: 40px;
+        display: flex;
+        position: relative;
+        z-index: 50;
+        align-items: center;
+        width: 30px;
+        height: 18px;
+    }
+
+    .burger span {
+        height: 2px;
+        width: 100%;
+        transform: scale(1);
+        background-color: #181818;
+    }
+
+    .burger::before, .burger::after {
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        background-color: #181818;
+        transition: all 0.3s ease 0s;
+    }
+
+    .burger::before {
+        top: 0;
+    }
+
+    .burger::after {
+        bottom: 0;
+    }
+
+    .burger.active span {
+        transform: scale(0);
+    }
+
+    .burger.active::before {
+        top: 50%;
+        transform: rotate(-45deg) translate(0, -50%);
+    }
+
+    .burger.active::after {
+        top: 50%;
+        transform: rotate(45deg) translate(0, 50%);
+    }
+
+    .nav {
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 50;
+        overflow: auto;
+        text-align: center;
+        padding-top: 100px;
+        background-color: rgba(255, 255, 255, .95);
+        animation: burgerAnimation 0.4s;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    @keyframes burgerAnimation {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+
+    .best-rows {
+        flex-direction: column;
+    }
+
+    .best-img {
+        margin: auto;
+        text-align: center;
+    }
+
+    .best-img img {
+        width: auto;
+    }
+
+    .best-text {
+        justify-content: space-around;
+        margin-bottom: 40px;
+    }
+
+    .preview-body {
+        width: 450px;
+    }
+
+    .preview-body p {
+        width: 450px;
+    }
+
+    .input-one input {
+        width: 160px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .input-two input{
+        width: 400px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .form-header p {
+        width: 400px;
+    }
+
+    .form-img img {
+        width: 400px;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .about-photo img {
+        width: 120px;
+    }
+
+    .about-text h2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 610px) {
+    .about-photo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-photo img {
+        width: auto;
+    }
+
+    .form-body {
+        width: 350px;
+        align-items: center;
+    }
+
+    .input-one input {
+        width: 100px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .input-two input{
+        width: 346px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .form-header p {
+        width: 350px;
+    }
+
+    .form-img img {
+        width: 350px;
+    }
+
+    .description-card {
+        justify-content: space-between;
+    }
+
+    .description-card svg {
+        display: none;
+    }
+
+    .tab-description {
+        font-size: 14px;
+    }
+
+    .preview-body h1 {
+        font-size: 22px;
+        width: 300px;
+    }
+
+    .preview-body, .preview-body p, .preview-img img {
+        width: 300px;
+    }
+
+    .preview-img img {
+        margin-top: 40px;
+    }
+
+    .best-head {
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+    }
+
+    .best-head h2 {
+        font-size: 22px;
+    }
+
+    .best-head a {
+        font-size: 18px;
+    }
+
+    .best-img img {
+        width: 300px;
+    }
+
+    .best-card {
+        margin: auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section {
+        margin: 0;
+    }
+
+    .best-head {
+        margin-bottom: 40px;
+    }
+
+    .best-text {
+        justify-content: space-between;
+    }
+
+    .lead h2 {
+        font-size: 22px;
+    }
+
+    .lead {
+        text-align: center;
+    }
+
+    .lead-body {
+        padding-top: 50px;
+    }
+
+    .product-head {
+        font-size: 22px;
+        margin-top: 40px;
+    }
+
+    .product-body {
+        text-align: center;
+    }
+
+    .product-colors svg:nth-child(4) {
+        margin-right: 0;
+    }
+
+    .specs-card svg {
+        display: none;
+    }
+
+    .specs-card p {
+        font-size: 14px;
+    }
+
+    .specs-card {
+        justify-content: space-between;
+    }
+
+    .product-section-two img {
+        width: 300px;
+    }
+
+    .product-cost {
+        flex-direction: column;
+        width: 300px;
+    }
+
+    .product-cost p {
+        font-size: 22px;
+    }
+
+    .product-cost button {
+        margin: 50px auto;
+    }
+
+    .tab-description {
+        width: 300px;
+    }
+
+    .tab-button p {
+        font-size: 22px;
+    }
+
+    .tab-button svg {
+        margin-top: 12px;
+    }
+
+    .about-text h2 {
+        font-size: 22px;
+    }
+
+    .advantages img {
+        width: 300px;
+    }
+
+    .advantages-card {
+        width: 300px;
+        margin: 20px auto;
+    }
+
+    .advantages-card p {
+        font-size: 18px;
+        margin: 14px 15px;
+    }
+
+    .advantages-body {
+        margin-bottom: 40px;
+    }
+
+    .form {
+        width: 300px;
+        text-align: center;
+    }
+
+    .form-header h1 {
+        font-size: 22px;
+    }
+
+    .form-body {
+        width: 300px;
+    }
+
+    .form-body p {
+        width: 300px;
+    }
+
+    .form-img img {
+        width: 300px;
+    }
+
+    .form-input {
+        text-align: start;
+    }
+
+    .input-name {
+        width: 150px;
+    }
+
+    .input-body {
+        width: 150px;
+    }
+
+    .input-body p {
+        width: 150px;
+    }
+
+    .input-one input {
+        width: 136px;
+    }
+
+    .input-name {
+        margin-right: 10px;
+    }
+
+    .input-two input {
+        width: 296px;
+    }
+
+    .form-radio p {
+        margin-top: 15px;
+    }
+
+    footer {
+        padding: 40px 0;
+    }
+}

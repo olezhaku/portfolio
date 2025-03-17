@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url("../../home/fonts-family/Raleway-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Raleway-SemiBold';
+    src: url("../../home/fonts-family/Raleway-SemiBold.ttf");
+}
+
+/* body */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: #030303;
+}
+
+.conteiner {
+    margin: 50px;
+}
+
+/* header */
+header {
+    text-align: center;
+    border-radius: 15px;
+    background: #1f1f1f;
+    color: #22b455;
+    padding: 25px;
+}
+
+/* cards */
+.card {
+    margin: 15px;
+    background: #1f1f1f;
+    border-radius: 15px;
+    color: #80ce87;
+}
+
+.card-header {
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    color: #030303;
+    background: #22b455;
+    margin-bottom: 20px;
+}
+
+.card-body {
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.card h2 {
+    margin: 10px;
+}
+
+.card p {
+    margin: 10px;
+    color: #03A062;
+    font-family: monospace;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* one-section */
+.one-section {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: .5fr .9fr .6fr .6fr;
+}
+
+/* two-section */
+.two-section {
+    display: grid;
+    grid-template-columns: .5fr .5fr 1fr;
+}
+
+.card-fingerprint {
+    margin: 15px 0;
+}
+
+/* margin 0 */
+.card-display, .card-history {
+    margin-right: 0;
+}
+
+.card-ip, .card-geo {
+    margin-left: 0;
+}
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1E4776;
+    padding-top: 40px;
+    padding-bottom: 140px;
+    color: white;
+}
+
+.footer-copyright {
+    margin-left: 50px;
+    max-width: 540px;
+    color: #7e9ec9;
+    font-family: 'Raleway-Regular';
+}
+
+.footer-copyright-name {
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-family: 'Raleway-SemiBold';
+}
+
+.footer-copyright p {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.footer-button {
+    margin-right: 50px;
+}
+
+.footer-btn {
+    font-family: 'Raleway-SemiBold';
+    font-size: 20px;
+    color: #1E4776;
+    background: #7e9ec9;
+    width: 240px;
+    height: 60px;
+    border-radius: 50px;
+    border: #181818;
+    margin-top: 9px;
+    transition: background 0.2s linear;
+}
+
+.footer-btn:hover {
+    cursor: pointer;
+    color: #7e9ec9;
+    border: #7e9ec9 2px solid;
+    background: #1E4776;
+}
